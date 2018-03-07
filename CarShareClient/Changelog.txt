@@ -1,0 +1,29 @@
+FILES CHANGED:
+database.py: line 305: get_homebay function added so that after updating homebay 
+then returning to homepage where homebay is displayed, the new homebay would be shown.
+
+routes.py: line 182: update the user details array to allow new homebay to be displayed.
+
+bay_list.html: line 24: https://edstem.com.au/courses/127/discussion/8721 
+made this change since & was not being passed properly, based off Daniel McMillan's answer
+
+FUNCTIONS WORKED ON:
+
+Justin Harding 450221916: 
+make_booking
+get_all_bookings
+get_booking
+get_homebay
+get_cars_in_bay
+
+Wai Min Hein 450009266:
+update_homebay
+get_all_bays
+search_bays
+get_homebay
+
+Sean Lee 460205119:
+check_login
+get_car_details
+get_all_cars
+get_bay
